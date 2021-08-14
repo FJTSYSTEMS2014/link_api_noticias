@@ -1,6 +1,7 @@
 #!/bin/sh
 cd C:\Users\franck\Desktop\LINK_NoticiasFranckPW3\link_api_noticias
 git init
+git pull
 git status
 echo Press Enter...
 git add .
