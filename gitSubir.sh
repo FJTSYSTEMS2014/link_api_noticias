@@ -1,5 +1,5 @@
 #!/bin/sh
-cd E:\pROYECTOS\IUPA WEB\BIMESTRE 4\ProgramacionWEB3\noticiasREACT\AUTOMATIZAR_NOTICIAS\link_api_noticias
+cd C:\Users\franck\Desktop\LINK_NoticiasFranckPW3\link_api_noticias
 git init
 git status
 echo Press Enter...
