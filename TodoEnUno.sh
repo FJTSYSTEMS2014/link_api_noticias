@@ -42,6 +42,7 @@ curl -o top-headlines-technology.json https://newsapi.org/v2/top-headlines -G \
 
 echo Termino la Actualizacion...
 echo "Iniamos GIT..."
+cd C:\Users\franck\Desktop\LINK_NoticiasFranckPW3\link_api_noticias
 git init
 git status
 echo Press Enter...
