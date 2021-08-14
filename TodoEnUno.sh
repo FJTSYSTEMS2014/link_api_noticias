@@ -34,6 +34,12 @@ curl -o top-headlines-sports.json  https://newsapi.org/v2/top-headlines -G \
 	-d category=sports \
     -d apiKey=d2358245efe14cf09b1f1e97c2e3a7f5
 	
+	#Noticias destacadas google NEWS Arg
+curl -o top-headlines-google-news-arg.json  https://newsapi.org/v2/top-headlines -G \
+    -d sources=google-news-ar \
+    -d apiKey=d2358245efe14cf09b1f1e97c2e3a7f5
+	
+	
 #Noticias Tecnologia
 curl -o top-headlines-technology.json https://newsapi.org/v2/top-headlines -G \
     -d country=ar \
