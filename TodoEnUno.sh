@@ -45,6 +45,13 @@ curl -o top-headlines-google-news-arg.json  https://newsapi.org/v2/top-headlines
     -d sources=google-news-ar \
 	-d pageSize=100 \
     -d apiKey=d2358245efe14cf09b1f1e97c2e3a7f5
+
+	#Noticias destacadas google NEWS Brasil
+curl -o top-headlines-google-news-br.json  https://newsapi.org/v2/top-headlines -G \
+    -d sources=google-news-br \
+	-d pageSize=100 \
+    -d apiKey=d2358245efe14cf09b1f1e97c2e3a7f5
+	
 	
 	
 #Noticias Tecnologia
