@@ -51,6 +51,11 @@ curl -o top-headlines-google-news-br.json  https://newsapi.org/v2/top-headlines 
     -d sources=google-news-br \
 	-d pageSize=100 \
     -d apiKey=d2358245efe14cf09b1f1e97c2e3a7f5
+	#Noticias donde indican argentina en el mundo
+curl -o top-headlines-news-argentina-world.json  https://newsapi.org/v2/everything -G \
+    -d q=argentina \
+	-d pageSize=100 \
+    -d apiKey=d2358245efe14cf09b1f1e97c2e3a7f5	
 	
 	
 	
