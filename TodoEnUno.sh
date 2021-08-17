@@ -1,4 +1,10 @@
-
+echo Termino la Actualizacion...
+echo "Iniamos GIT..."
+cd C:\Users\franck\Desktop\LINK_NoticiasFranckPW3\link_api_noticias
+git init
+git pull
+git status
+echo Press Enter...
 #Noticias Generales
 curl -o top-headlines-general.json  https://newsapi.org/v2/top-headlines -G \
     -d country=ar \
@@ -66,13 +72,7 @@ curl -o top-headlines-technology.json https://newsapi.org/v2/top-headlines -G \
 	-d pageSize=100 \
     -d apiKey=d2358245efe14cf09b1f1e97c2e3a7f5
 
-echo Termino la Actualizacion...
-echo "Iniamos GIT..."
-cd C:\Users\franck\Desktop\LINK_NoticiasFranckPW3\link_api_noticias
-git init
-git pull
-git status
-echo Press Enter...
+
 git add .
 git commit -m "cambios del dia"
 git push
