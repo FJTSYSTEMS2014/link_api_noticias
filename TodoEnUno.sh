@@ -1,4 +1,6 @@
-
+cd C:\Users\franck\Desktop\LINK_NoticiasFranckPW3\link_api_noticias
+git init
+git pull
 #Noticias Generales
 curl -o top-headlines-general.json  https://newsapi.org/v2/top-headlines -G \
     -d country=ar \
@@ -66,7 +68,7 @@ curl -o top-headlines-google-news-usa.json  https://newsapi.org/v2/top-headlines
     #-d apiKey=d2358245efe14cf09b1f1e97c2e3a7f5	
 	
 	
-curl -o top-headlines-news-argentina-world.json https://gnews.io/api/v4/search?q=argentina&token=146d3ccd32418b639499a233d323fd07&lang=en
+curl  "https://gnews.io/api/v4/search?q=argentina&token=146d3ccd32418b639499a233d323fd07&lang=en" -o top-headlines-news-argentina-world.json
 	
 #Noticias Tecnologia
 curl -o top-headlines-technology.json https://newsapi.org/v2/top-headlines -G \
@@ -77,9 +79,7 @@ curl -o top-headlines-technology.json https://newsapi.org/v2/top-headlines -G \
 
 echo Termino la Actualizacion...
 echo "Iniamos GIT..."
-cd C:\Users\franck\Desktop\LINK_NoticiasFranckPW3\link_api_noticias
-git init
-git pull
+
 git status
 echo Press Enter...
 git add .
