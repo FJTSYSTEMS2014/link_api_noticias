@@ -1,4 +1,4 @@
-cd C:\Users\franck\Desktop\LINK_NoticiasFranckPW3\link_api_noticias
+
 git init
 git pull
 #Noticias Generales
