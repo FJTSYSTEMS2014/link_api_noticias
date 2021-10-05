@@ -1,0 +1,1 @@
+start "windowTitle" C:\Users\franck\Desktop\Nueva carpeta\actualizar\link_api_noticias\TodoEnUno.sh
