@@ -82,7 +82,7 @@ echo "Iniciamos GIT..."
 
 git status
 git add .
-git commit -m "cambios del dia 2"
-git push origin master
+git commit -m "cambios del dia"
+git push -f origin master
 echo Termino la carga .. Press Tecla para Salir...
 read
