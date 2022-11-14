@@ -78,12 +78,11 @@ curl -o top-headlines-technology.json https://newsapi.org/v2/top-headlines -G \
     -d apiKey=d2358245efe14cf09b1f1e97c2e3a7f5
 
 echo Termino la Actualizacion...
-echo "Iniamos GIT..."
+echo "Iniciamos GIT..."
 
 git status
-echo Press Enter...
 git add .
 git commit -m "cambios del dia 2"
-git push -f origin master
+git push origin master
 echo Termino la carga .. Press Tecla para Salir...
 read
